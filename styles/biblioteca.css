@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    padding-top: 60px;
+}
+
+main .sidebar-games {
+    height: fit-content;
+    min-height: 90vh;
+    width: 15vw;
+    max-width: 300px;
+    background-color: red;
+}
+
+main .games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 86vw;
+}
+
+main .games h1 a{
+    color: rgb(44, 44, 44);
+}

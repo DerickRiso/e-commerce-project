@@ -1,0 +1,39 @@
+main *{
+    border: red 1px solid;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+main .problems {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 200px;
+}
+
+main .problems .problem {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+main .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: fit-content;
+    width: 40vw;
+}
+
+main .contact form fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    height: 300px;
+}
