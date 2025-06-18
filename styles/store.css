@@ -1,0 +1,89 @@
+main {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+main .highlights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1C1755;
+    width: 80%;
+    height: fit-content;
+    padding: 12px 0px;
+}
+
+main .highlights img {
+    width: 60%;
+}
+
+main .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 108, 150);
+    height: 120px;
+    width: 80%;
+}
+
+main .banner h2{
+    font-size: 3em;
+    animation: hotline-miami 3.5s ease-out infinite;
+}
+
+main .games-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+main .games-showcase .game-card {
+    height: fit-content;
+    width: fit-content;
+    background-color: #1C1755;
+    padding: 12px;
+}
+
+main .games-showcase .game-card img {
+    width: 17vw;
+    max-width: 300px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+footer a{
+    color: #acacac;
+}
+
+@keyframes hotline-miami {
+  
+  15% {
+    margin-left: 0;
+    text-shadow: none;
+  }
+  
+  45%, 55% {
+    margin-left: 1.25em;
+    text-shadow:
+    -0px 0 #684b4b,
+    -8px 0 #af484880,
+    -16px 0 #f01f1f4f;
+  }
+  
+}
