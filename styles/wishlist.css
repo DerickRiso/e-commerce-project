@@ -1,7 +1,3 @@
-main * {
-    border: red solid 1px;
-}
-
 main {
     display: flex;
     justify-content: center;
@@ -31,12 +27,26 @@ main .wishlist ul li {
     align-items: center;
     width: 90%;
     max-width: 850px;
-    height: 90px;
+    height: 160px;
     padding: 0px 10px;
+    background-color: rgb(235, 235, 235);
+}
+
+main .wishlist ul li div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+main .wishlist ul li img {
+    width: 100px;
 }
 
 main .wishlist ul li button {
     padding: 10px;
     border: none;
     cursor: pointer;
+    background-color: rgb(69, 206, 69);
 }

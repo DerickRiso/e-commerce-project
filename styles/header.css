@@ -1,7 +1,8 @@
 header {
     display: flex;
     position: fixed;
-    background-color: #131313;
+    justify-content: space-between;
+    background-color: black;
     color: white;
     height: 60px;
     width: 100%;
@@ -31,6 +32,17 @@ header .first-header-container{
 
 .first-header-container nav ul li a {
     color: white;
+}
+
+.second-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.second-header-container img {
+    width: 35px;
 }
 
 main {
