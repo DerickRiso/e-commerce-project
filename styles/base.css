@@ -14,3 +14,7 @@ html, body {
     overflow-x: hidden;
     background-color: #161515;
 }
+
+.hidden {
+    display: none;
+}
