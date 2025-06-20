@@ -10,7 +10,6 @@ header {
     z-index: 10;
 }
 
-
 header .logo img {
     width: 60px;
 }
@@ -67,7 +66,7 @@ header .first-header-container{
 }
 
 main {
-    padding-top: 90px;
+    padding-top: 130px;
 }
 
 @media(max-width: 450px) {

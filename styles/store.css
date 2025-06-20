@@ -116,7 +116,6 @@ footer a{
 }
 
 @keyframes infinite-left {
-  
   15% {
     margin-left: 0;
     text-shadow: none;
@@ -128,20 +127,11 @@ footer a{
     -8px 0 #ff2cdc48,
     -16px 0 #ff2cdc28;
   }
-  
 }
 
 @media (max-width: 450px) {
     main .highlights {
-        width: 95%;
-    }
-
-    main .highlights div {
-        width: 70%;
-    }
-
-    main .highlights img {
-        width: 70%;
+        display: none;
     }
 
     main .banner {
