@@ -40,7 +40,6 @@ main .games h1 a:hover{
     border: none;
     padding: 10px;
     cursor: pointer;
-    position: fixed;
     z-index: 2;
 }
 

@@ -8,21 +8,40 @@ main {
 main .highlights {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
     background-image: linear-gradient(to right, #5C28E8 20%,#C528E8 50%);
-    width: 80%;
-    height: fit-content;
+    width: 600px;
+    height: 300px;
     padding: 12px 0px;
+    overflow: hidden;
 }
 
-main .highlights img {
-    width: 60%;
+main .highlights div {
+    display: flex;
+    transition: transform 0.5s ease;
 }
 
-main .highlights button {
+main .highlights div img {
+    object-fit: cover;
+    height: 300px;
+    width: 600px;
+}
+
+#left, #right {
     border: none;
     background-color: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+
+#left {
+    left: 20vw;
+    z-index: 8;
+}
+
+#right {
+    right: 20vw;
+    z-index: 8;
 }
 
 main .highlights button img {
@@ -67,7 +86,12 @@ main .games-showcase .game-card h2 {
 }
 
 main .games-showcase .game-card p {
-    color: white;
+    color: black;
+    background-color: #45ce45;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 main .games-showcase .game-card img {
@@ -110,6 +134,10 @@ footer a{
 @media (max-width: 450px) {
     main .highlights {
         width: 95%;
+    }
+
+    main .highlights div {
+        width: 70%;
     }
 
     main .highlights img {

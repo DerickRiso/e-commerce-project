@@ -71,6 +71,10 @@ main .contact form fieldset .field:nth-child(4) {
     width: 70%;
 }
 
+textarea {
+    resize: none;
+}
+
 main .contact form fieldset .field:nth-child(4) input {
     padding: 20px;
 }

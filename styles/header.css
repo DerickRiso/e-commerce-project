@@ -1,12 +1,15 @@
 header {
     display: flex;
     position: fixed;
+    flex-direction: column;
     justify-content: space-between;
     background-color: black;
     color: white;
     height: 60px;
     width: 100%;
+    z-index: 10;
 }
+
 
 header .logo img {
     width: 60px;
@@ -36,10 +39,13 @@ header .first-header-container{
 
 .second-header-container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     padding-right: 10px;
-    gap: 8px;
+    background-color: rgb(29, 29, 29);
+    gap: 10px;
+    height: 60px;
+    padding-right: 2vw;
 }
 
 .second-header-container input {
@@ -61,5 +67,25 @@ header .first-header-container{
 }
 
 main {
-    padding-top: 70px;
+    padding-top: 90px;
+}
+
+@media(max-width: 450px) {
+    header {
+        height: fit-content;
+    }
+
+    .first-header-container {
+        justify-content: space-between;
+        padding: 0px 10px;
+    }
+
+    .first-header-container nav {
+        height: 250px;
+    }
+
+    .first-header-container nav ul {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
