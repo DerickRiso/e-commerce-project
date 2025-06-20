@@ -13,6 +13,7 @@ function menuVisibility () {
     }
 }
 
+menuVisibility()
 window.addEventListener('resize', menuVisibility);
 
 menu.addEventListener('click', () => {
